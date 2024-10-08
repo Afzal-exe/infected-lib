@@ -1,0 +1,7 @@
+{
+  "name": "compromise-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "A malicious package for extracting username and passowrd"
+}
+

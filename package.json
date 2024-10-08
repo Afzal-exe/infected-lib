@@ -1,15 +1,23 @@
 {
-  "name": "nodeJS Application",
+  "name": "infected-lib",
   "version": "1.0.0",
-  "description": "A Node.js app simulating supply chain compromise.",
-  "main": "app.js",
+  "description": "A demonstration library designed to simulate malicious NPM package activity for security training and research purposes.",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Warning: No test specified\" && exit 1"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "infected-lib": "file:./infected-lib",
-    "winston": "^3.8.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Afzal-exe/infected-lib.git"
+  },
+  "keywords": [
+    "security",
+    "malware",
+    "npm",
+    "malicious-package",
+    "compromise-lib",
+    "training"
+  ],
+  "author": "Bad Actor",
+  "license": "ISC"
 }
-

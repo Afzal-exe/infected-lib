@@ -1,6 +1,6 @@
 {
   "name": "infected-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A demonstration library designed to simulate malicious NPM package activity for security training and research purposes.",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,9 @@
     "compromise-lib",
     "training"
   ],
-  "author": "Bad Actor",
-  "license": "ISC"
+  "author": "afzallllll",
+  "license": "ISC",
+  "dependencies": {
+    "infected-lib": "^1.0.0"
+  }
 }

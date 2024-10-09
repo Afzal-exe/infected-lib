@@ -19,7 +19,7 @@ function createCredsFile(logger) {
     logger.info(`[INFO] Created file with sensitive credentials: ${credsFile}`); // Log the file creation
 }
 
-// Simulated malicious package: compromise-lib
+// Simulated malicious package: infected-lib
 module.exports = {
     attackSystem: function(logger) {
         // Simulated attack: sending sensitive data to an external server

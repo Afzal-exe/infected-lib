@@ -29,3 +29,20 @@ const infected = require('infected-lib');
 
 // Simulate malicious activity
 infected.triggerCompromise();
+```
+
+## Detect the Activity
+You can find Directory called creds and a file credentials.txt in the node_modules Directory
+
+```javascript
+// run this in root directory of your nodejs application
+cat /node_modules/creds/credentials.txt
+```
+
+## Contributing
+We welcome contributions to infected-lib! If you have suggestions for improvements or new features, please feel free to submit a pull request or open an issue.
+
+## Author
+
+**Mohammed Afzal**  
+[GitHub Profile](https://github.com/Afzal-exe)
